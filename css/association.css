@@ -1,0 +1,42 @@
+
+.board-item {
+    display: -webkit-box;
+    margin-bottom: 10px;
+}
+
+.board-image {
+    width: 25%;
+}
+
+.board-description {
+    width: 75%;
+}
+
+.left {
+	margin-right: 75px;
+}
+
+.right {
+    margin-left: 75px;
+    width: 70%;
+}
+
+.title {
+	font-weight: bold;
+}
+
+.no-image {
+    width: 175px;
+}
+
+#map-modal {
+	border: 1px solid black;
+    position: absolute;
+    z-index: 1;
+    background: white;
+}
+
+#map-modal-x {
+	float: right;
+	cursor: pointer;
+}
